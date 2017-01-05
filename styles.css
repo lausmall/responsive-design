@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.column {
+  width: 50%;
+  min-height: 200px;
+  float: left;
+  margin: 0 auto;
+
+}
+
+/* mobile */
+@media (max-width:350px) {
+  .column {
+    width: 100%;
+    float: none;
+  }
+}
+
+/* the float none applies for when it gets below the 320px when it does not float 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> - ALWAYS NEED THIS FOR RESPONSIVE DESIGN --> devices have DPIs - more pixel density- 
+  browser inherently looks at manipulated screensize - it tricks browser in thinking it is a bigger screen 
+*/
+
+@media (min-width:1300px) {
+  .column
+  }
+}
